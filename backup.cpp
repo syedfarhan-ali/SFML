@@ -31,7 +31,7 @@ int main() {
 		}
 
 		// Keyboard movement code 
-		/*if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
 			player.move(-0.1f,0.0f);
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
@@ -42,7 +42,7 @@ int main() {
 		}
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) {
 			player.move(0.0f, 0.1f);
-		}*/
+		}
 
 		//Mouse movement code
 		if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
